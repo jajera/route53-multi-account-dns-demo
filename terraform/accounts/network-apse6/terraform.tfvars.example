@@ -1,0 +1,12 @@
+aws_region = "ap-southeast-6"
+instance_type = "t4g.nano"
+
+# Phase 2b — copy to terraform.tfvars and keep for every re-apply (SSM endpoints, NAT, etc.)
+zone_id                   = "Z070508012PUKYLKK75IM"
+enable_zone_association   = true
+enable_test_ec2           = true
+enable_ssm_vpc_endpoints  = true
+ssm_vpc_endpoint_services = ["ssm", "ssmmessages"]
+
+# Optional — SSM + dig from private subnets before ec2messages endpoint exists in ap-southeast-6
+# enable_nat_gateway = true

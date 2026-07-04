@@ -1,0 +1,12 @@
+{
+  "specId": "5b9c8c7f-7160-4a8e-8d24-e3a92bf7c3bb",
+  "workflowType": "requirements-first",
+  "specType": "feature",
+  "documents": {
+    "requirements": "requirements.md",
+    "design": "design.md",
+    "tasks": "tasks.md",
+    "walkthrough": "walkthrough.md"
+  },
+  "walkthroughOutput": "docs/walkthrough.md"
+}
