@@ -1,0 +1,14 @@
+# AWS region for deployment
+aws_region = "ap-southeast-2"
+
+# EC2 instance type for test instances
+instance_type = "t4g.nano"
+
+# Base domain for the demo private hosted zone
+demo_domain = "demo.local"
+
+# Phase 2 — workload VPC IDs from Phase 1 outputs
+dev_apse2_vpc_id     = "vpc-043eac7bacf56d818"
+dev_apse6_vpc_id     = "vpc-0006cc5fe1927f473"
+sandbox_apse2_vpc_id = "vpc-06d0b38ba3fc1d7bd"
+sandbox_apse6_vpc_id = "vpc-0c30af010875151c7"
